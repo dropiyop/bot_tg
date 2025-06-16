@@ -1,6 +1,4 @@
-import aiogram
-import aiogram.fsm.context
-
+from aiog import *
 
 def approve_required(handler):
     async def wrapper(message: aiogram.types.Message, *args, **kwargs):

@@ -1,4 +1,4 @@
-import aiogram.fsm.state
+from aiog import *
 
 
 class Form(aiogram.fsm.state.StatesGroup):

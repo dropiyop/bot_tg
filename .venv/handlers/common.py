@@ -1,8 +1,6 @@
 import asyncio
 
-import aiogram.fsm.context
-import aiogram.filters
-import aiogram
+from aiog import *
 
 import decorators
 import init_clients

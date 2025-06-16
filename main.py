@@ -3,7 +3,7 @@
 import asyncio
 import logging
 import sys
-import aiogram
+from aiog import *
 import init_clients
 
 

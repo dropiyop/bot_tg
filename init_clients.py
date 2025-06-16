@@ -1,4 +1,4 @@
-import aiogram.fsm.storage.memory
+from aiog import *
 import openai
 import httpx_socks
 import httpx
